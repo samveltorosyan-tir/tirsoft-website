@@ -169,26 +169,15 @@ section.tight { padding: 64px 0; }
 }
 
 .logo {
-  display: inline-flex; align-items: center; gap: 10px;
-  font-family: var(--font-fraunces), serif;
-  font-variation-settings: "opsz" 144, "SOFT" 100;
-  font-weight: 380;
-  font-size: 24px; line-height: 1; letter-spacing: -0.02em; color: var(--ink);
+  display: inline-flex; align-items: center;
+  line-height: 0;
   position: relative;
 }
 .logo .logo-mark {
-  display: inline-block;
-  width: 36px;
-  height: 36px;
+  display: block;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-}
-.logo .mark { display: inline-flex; align-items: center; position: relative; }
-.logo .mark::after {
-  content: "";
-  display: inline-block; width: 7px; height: 7px; border-radius: 50%;
-  background: var(--grad);
-  margin-left: 1px;
-  transform: translateY(2px);
 }
 
 .nav-links { display: flex; align-items: center; gap: 6px; }

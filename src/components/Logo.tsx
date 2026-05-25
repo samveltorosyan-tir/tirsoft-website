@@ -13,12 +13,11 @@ export function Logo({ variant = "header" }: LogoProps): React.ReactElement {
       <Image
         src="/logo.png"
         alt=""
-        width={36}
-        height={36}
+        width={40}
+        height={40}
         priority
         className="logo-mark"
       />
-      <span className="mark">tirsoft</span>
     </Link>
   );
 }

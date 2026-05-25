@@ -28,10 +28,10 @@ export function Footer(): React.ReactElement {
     <footer className="footer" role="contentinfo">
       <div className="wrap">
         <div className="footer-logotype" aria-hidden="true">
-          tir<span className="soft">soft.</span>
+          <span className="soft">TIRS</span>oft
         </div>
         <div className="footer-tagline">
-          AI strategy &amp; implementation · since {SITE.founded}
+          Web/Mobile Development &amp; AI strategy  · since {SITE.founded}
         </div>
 
         <div className="footer-grid">
