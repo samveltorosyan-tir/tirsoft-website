@@ -118,7 +118,7 @@ export function Stats(): React.ReactElement {
   }, []);
 
   return (
-    <section ref={sectionRef} className="stats" aria-label="Studio key figures">
+    <section ref={sectionRef} className="stats" aria-label="Company key figures">
       <div className="wrap">
         <div className="stats-grid">
           {STATS.map((stat, idx) => {

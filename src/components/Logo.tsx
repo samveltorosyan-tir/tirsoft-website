@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 interface LogoProps {
@@ -9,8 +10,15 @@ export function Logo({ variant = "header" }: LogoProps): React.ReactElement {
     variant === "menu" ? "TIRSoft — home (close menu)" : "TIRSoft — home";
   return (
     <Link href="/" className="logo" aria-label={label}>
+      <Image
+        src="/logo.png"
+        alt=""
+        width={36}
+        height={36}
+        priority
+        className="logo-mark"
+      />
       <span className="mark">tirsoft</span>
-      <span className="studio">studio</span>
     </Link>
   );
 }

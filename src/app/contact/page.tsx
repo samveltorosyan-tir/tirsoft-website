@@ -6,10 +6,10 @@ import { ContactForm } from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact — tell us about the project",
   description:
-    "Get in touch with TIRSoft Studio. We respond within one business day. Bring the brief, the back-of-napkin, or just a question.",
+    "Get in touch with TIRSoft. We respond within one business day. Bring the brief, the back-of-napkin, or just a question.",
   alternates: { canonical: "/contact" },
   openGraph: {
-    title: "Contact TIRSoft Studio",
+    title: "Contact TIRSoft",
     description:
       "We respond within one business day. Email, call, or send the brief.",
     url: "/contact",

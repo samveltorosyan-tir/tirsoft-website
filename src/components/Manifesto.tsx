@@ -15,7 +15,7 @@ export function Manifesto(): React.ReactElement {
             <Reveal as="p" className="manifesto-stmt">
               At TIRSoft, <em>your vision is our code.</em>
               <br />
-              We are an AI-native studio — partners, not a vendor.
+              We are an AI-native company — partners, not a vendor.
             </Reveal>
             <Reveal className="manifesto-not">
               <span className="strike">not a body shop</span>

@@ -1,9 +1,9 @@
 export const SITE = {
-  name: "TIRSoft Studio",
+  name: "TIRSoft",
   shortName: "TIRSoft",
-  tagline: "AI-native software studio",
+  tagline: "AI-native software company",
   description:
-    "TIRSoft is an AI-native software studio. AI strategy, integration, and custom builds, from Glendale and Yerevan. Since 2016.",
+    "TIRSoft is an AI-native software company. AI strategy, integration, and custom builds, from Glendale and Yerevan. Since 2016.",
   url: "https://tirsoft.co",
   ogImage: "/og.png",
   email: "hello@tirsoft.co",

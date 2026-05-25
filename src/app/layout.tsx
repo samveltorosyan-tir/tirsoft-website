@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   creator: SITE.name,
   publisher: SITE.name,
   keywords: [
-    "AI software studio",
+    "AI software company",
     "AI integration",
     "AI strategy",
     "custom software",
@@ -90,8 +90,8 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: "/logo.png",
+    apple: "/logo.png",
   },
   formatDetection: {
     email: false,

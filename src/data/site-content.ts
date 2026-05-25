@@ -365,19 +365,19 @@ export const OPEN_ROLES: ReadonlyArray<Role> = [
     ],
   },
   {
-    slug: "studio-lead-us",
-    title: "Studio Lead, US",
+    slug: "head-of-us",
+    title: "Head of US",
     meta: "Glendale · On-site · Full-time",
     summary:
-      "Run the US studio day-to-day — client relationships, hiring, and the quiet operational work that lets the team do their best craft.",
+      "Run the US office day-to-day — client relationships, hiring, and the quiet operational work that lets the team do their best craft.",
     responsibilities: [
       "Own client relationships from intro call to ship party.",
       "Hire thoughtfully — five seats this year, no more.",
-      "Keep the studio's operational rhythm: weekly demos, retros, reviews.",
+      "Keep the team's operational rhythm: weekly demos, retros, reviews.",
       "Represent TIRSoft in Glendale — events, partnerships, the occasional dinner.",
     ],
     requirements: [
-      "6+ years in studio, agency, or consulting leadership.",
+      "6+ years in agency, consulting, or product-team leadership.",
       "Track record of growing teams without losing the craft.",
       "Based in Glendale or willing to relocate; this is on-site.",
     ],
@@ -444,8 +444,8 @@ export const INDUSTRIES: ReadonlyArray<Industry> = [
 ];
 
 export const TECH_STACK: ReadonlyArray<StackEntry> = [
-  { category: "AI models", name: "Claude, GPT-4o, Llama" },
-  { category: "AI tooling", name: "LangChain, LlamaIndex, Anthropic SDK" },
+  { category: "AI models", name: "Claude 4.7, GPT-5, Gemini 2.5 Pro, Llama 4" },
+  { category: "AI tooling", name: "Vercel AI SDK, LangGraph, Anthropic SDK, LlamaIndex" },
   { category: "Retrieval", name: "Pinecone, pgvector, Weaviate" },
   { category: "Web", name: "Next.js, React, TypeScript" },
   { category: "Backend", name: "Node, Python, Go, FastAPI" },

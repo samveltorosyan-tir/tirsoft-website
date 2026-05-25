@@ -11,7 +11,7 @@ import { TECH_STACK } from "@/data/site-content";
 export const metadata: Metadata = {
   title: "Services — AI integration, custom builds, and care",
   description:
-    "Five practices held together by one studio: AI integration, web & SaaS, mobile, strategy, and maintenance. Calm processes, predictable timelines.",
+    "Five practices held together by one company: AI integration, web & SaaS, mobile, strategy, and maintenance. Calm processes, predictable timelines.",
   alternates: { canonical: "/services" },
   openGraph: {
     title: "TIRSoft Services — AI integration, custom builds, and care",
@@ -39,7 +39,7 @@ export default function ServicesPage(): React.ReactElement {
             </span>
           </Reveal>
           <Reveal as="p" className="lead" style={{ marginTop: 28 }}>
-            Five practices held together by one studio — and a single bias:
+            Five practices held together by one company — and a single bias:
             ship the thing that moves your P&amp;L. We sit inside your business,
             not next to it.
           </Reveal>

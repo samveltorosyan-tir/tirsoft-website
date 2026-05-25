@@ -7,7 +7,7 @@ interface FooterLink {
   readonly external?: boolean;
 }
 
-const STUDIO_LINKS: ReadonlyArray<FooterLink> = [
+const COMPANY_LINKS: ReadonlyArray<FooterLink> = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
   { label: "Work", href: "/work" },
@@ -36,9 +36,9 @@ export function Footer(): React.ReactElement {
 
         <div className="footer-grid">
           <div className="footer-col">
-            <h4>Studio</h4>
+            <h4>Company</h4>
             <p>
-              An AI-native software studio with teams in Glendale, CA and
+              An AI-native software company with teams in Glendale, CA and
               Yerevan, Armenia. We build calm products with confident clients.
             </p>
             <div className="footer-socials">
@@ -83,9 +83,9 @@ export function Footer(): React.ReactElement {
             </div>
           </div>
           <div className="footer-col">
-            <h4>Studio</h4>
+            <h4>Sitemap</h4>
             <ul>
-              {STUDIO_LINKS.map((l) => (
+              {COMPANY_LINKS.map((l) => (
                 <li key={l.label}>
                   <Link href={l.href}>{l.label}</Link>
                 </li>

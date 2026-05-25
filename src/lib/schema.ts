@@ -9,7 +9,7 @@ export function organizationSchema(): JsonLd {
     "@type": "Organization",
     "@id": `${SITE.url}/#organization`,
     name: SITE.name,
-    legalName: "TIRSoft Studio",
+    legalName: "TIRSoft",
     url: SITE.url,
     logo: `${SITE.url}/logo.png`,
     description: SITE.description,

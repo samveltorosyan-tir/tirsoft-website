@@ -8,12 +8,12 @@ import { VALUES, OPEN_ROLES } from "@/data/site-content";
 export const metadata: Metadata = {
   title: "Careers — work on real things, with real people",
   description:
-    "Open roles at TIRSoft Studio. Five seats, remote-friendly with a preference for Yerevan or Pacific overlap. We hire slowly, pay fairly, and care about craft.",
+    "Open roles at TIRSoft. Five seats, remote-friendly with a preference for Yerevan or Pacific overlap. We hire slowly, pay fairly, and care about craft.",
   alternates: { canonical: "/careers" },
   openGraph: {
     title: "Careers at TIRSoft",
     description:
-      "Open roles at TIRSoft Studio — AI engineering, product design, full-stack, iOS, studio lead.",
+      "Open roles at TIRSoft — AI engineering, product design, full-stack, iOS, US lead.",
     url: "/careers",
     type: "website",
   },
@@ -33,7 +33,7 @@ export default function CareersPage(): React.ReactElement {
             </span>
           </Reveal>
           <Reveal as="p" className="lead" style={{ marginTop: 28 }}>
-            We&apos;re a small studio in Glendale and Yerevan. We hire slowly,
+            We&apos;re a small team in Glendale and Yerevan. We hire slowly,
             pay fairly, and care about the craft. If that sounds like your kind
             of place, we&apos;d love to hear from you.
           </Reveal>
@@ -95,7 +95,7 @@ export default function CareersPage(): React.ReactElement {
             </div>
           </div>
           <div className="life-strip" aria-hidden="true">
-            <Reveal className="life-slot life-1" data-label="studio · yerevan" />
+            <Reveal className="life-slot life-1" data-label="office · yerevan" />
             <Reveal className="life-slot life-2" data-label="friday show & tell" />
             <Reveal className="life-slot life-3" data-label="coffee · cascade" />
             <Reveal className="life-slot life-4" data-label="ship party · 2025" />

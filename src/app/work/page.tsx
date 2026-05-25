@@ -32,7 +32,7 @@ export default function WorkPage(): React.ReactElement {
             </span>
           </Reveal>
           <Reveal as="p" className="lead" style={{ marginTop: 28 }}>
-            A studio is the projects it ships. Here are some recent ones —
+            A company is the projects it ships. Here are some recent ones —
             across healthcare, logistics, creative, fintech, energy and retail.
           </Reveal>
         </div>
@@ -54,7 +54,7 @@ export default function WorkPage(): React.ReactElement {
             <em>Be</em> our next success story.
           </>
         }
-        subtitle="Bring the project that scared two other studios off."
+        subtitle="Bring the project that scared two other vendors off."
       />
     </div>
   );

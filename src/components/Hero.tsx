@@ -9,7 +9,7 @@ export function Hero(): React.ReactElement {
         <div className="hero-grid">
           <div>
             <Reveal className="eyebrow hero-eyebrow">
-              AI-native software studio · est. 2016
+              AI-native software company · est. 2016
             </Reveal>
             <Reveal as="h1" className="h1">
               Setting a new benchmark in <em>AI-native</em> software.
@@ -46,7 +46,7 @@ function HeroLockupSvg(): React.ReactElement {
       viewBox="0 0 600 600"
       preserveAspectRatio="xMidYMid meet"
       role="img"
-      aria-label="TIRSoft AI-native studio lockup showing the AI wordmark with a strategy, design, build, ship flow diagram"
+      aria-label="TIRSoft AI-native lockup showing the AI wordmark with a strategy, design, build, ship flow diagram"
     >
       <defs>
         <linearGradient id="grad-ai" x1="0" y1="0" x2="1" y2="1">

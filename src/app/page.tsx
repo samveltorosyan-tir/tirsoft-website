@@ -38,7 +38,7 @@ export default function HomePage(): React.ReactElement {
             eyebrow="What we do"
             title={
               <>
-                Five practices, <em>one studio.</em>
+                Five practices, <em>one company.</em>
               </>
             }
             lead="From early strategy to AI integration and long-term support — a small team that takes ownership end to end."
