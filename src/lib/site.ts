@@ -6,7 +6,7 @@ export const SITE = {
     "TIRSoft is an AI-native software company. AI strategy, integration, and custom builds, from Glendale and Yerevan. Since 2016.",
   url: "https://tirsoft.co",
   ogImage: "/og.png",
-  email: "hello@tirsoft.co",
+  email: "info@tirsoft.co",
   phone: "+374 95 311 644",
   locale: "en_US",
   founded: 2016,
