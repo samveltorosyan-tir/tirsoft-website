@@ -1,17 +1,17 @@
 import type { Metadata, Viewport } from "next";
-import { Fraunces, Instrument_Sans, Instrument_Serif } from "next/font/google";
+import { Crimson_Pro, Instrument_Sans } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { SITE } from "@/lib/site";
 import { organizationSchema, websiteSchema } from "@/lib/schema";
 import "./globals.css";
 
-const fraunces = Fraunces({
+const crimsonPro = Crimson_Pro({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+  weight: ["300", "400", "500", "600", "700"],
   style: ["normal", "italic"],
   display: "swap",
-  variable: "--font-fraunces",
+  variable: "--font-crimson",
 });
 
 const instrumentSans = Instrument_Sans({
@@ -20,14 +20,6 @@ const instrumentSans = Instrument_Sans({
   style: ["normal", "italic"],
   display: "swap",
   variable: "--font-instrument-sans",
-});
-
-const instrumentSerif = Instrument_Serif({
-  subsets: ["latin"],
-  weight: ["400"],
-  style: ["normal", "italic"],
-  display: "swap",
-  variable: "--font-instrument-serif",
 });
 
 export const metadata: Metadata = {
@@ -90,7 +82,7 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/logo.png",
+    icon: "/favicon.ico",
     apple: "/logo.png",
   },
   formatDetection: {
@@ -114,7 +106,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${fraunces.variable} ${instrumentSans.variable} ${instrumentSerif.variable}`}
+      className={`${crimsonPro.variable} ${instrumentSans.variable}`}
     >
       <body>
         <a className="skip" href="#main">

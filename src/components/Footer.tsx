@@ -126,7 +126,7 @@ export function Footer(): React.ReactElement {
             rights reserved.
           </span>
           <span>
-            Set in <em>Fraunces</em> &amp; <em>Instrument Sans</em> · designed
+            Set in <em>Crimson Pro</em> &amp; <em>Instrument Sans</em> · designed
             with care.
           </span>
         </div>

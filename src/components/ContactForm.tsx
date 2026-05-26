@@ -3,7 +3,7 @@
 import { useState, type FormEvent } from "react";
 import { ArrowIcon } from "./ArrowIcon";
 
-type FormState = "idle" | "sending" | "sent";
+type FormState = "idle" | "sending" | "sent" | "error";
 
 const BUDGETS: ReadonlyArray<string> = [
   "Under $25k",
@@ -24,15 +24,27 @@ const TOPICS: ReadonlyArray<string> = [
 export function ContactForm(): React.ReactElement {
   const [state, setState] = useState<FormState>("idle");
 
-  const onSubmit = (ev: FormEvent<HTMLFormElement>): void => {
+  const onSubmit = async (ev: FormEvent<HTMLFormElement>): Promise<void> => {
     ev.preventDefault();
     if (state === "sending") return;
     setState("sending");
     const form = ev.currentTarget;
-    window.setTimeout(() => {
+    const data = Object.fromEntries(new FormData(form).entries());
+    try {
+      const res = await fetch("/api/notify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...data, optin: data.optin === "on" }),
+      });
+      if (!res.ok) {
+        setState("error");
+        return;
+      }
       setState("sent");
       form.reset();
-    }, 700);
+    } catch {
+      setState("error");
+    }
   };
 
   const submitLabel =
@@ -40,7 +52,9 @@ export function ContactForm(): React.ReactElement {
       ? "Sending…"
       : state === "sent"
         ? "✓ Sent — we’ll reply within a business day"
-        : "Send the brief";
+        : state === "error"
+          ? "Something went wrong — try again"
+          : "Send the brief";
 
   return (
     <form

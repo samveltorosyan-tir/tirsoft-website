@@ -10,7 +10,7 @@ import {
 import { ArrowIcon } from "./ArrowIcon";
 import type { Role } from "@/data/site-content";
 
-type FormState = "idle" | "sending" | "sent";
+type FormState = "idle" | "sending" | "sent" | "error";
 
 const MAX_CV_BYTES = 5 * 1024 * 1024;
 const ACCEPT = ".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document";
@@ -83,16 +83,25 @@ export function RoleAccordion({
     if (fileInputRef.current) fileInputRef.current.value = "";
   };
 
-  const onSubmit = (ev: FormEvent<HTMLFormElement>): void => {
+  const onSubmit = async (ev: FormEvent<HTMLFormElement>): Promise<void> => {
     ev.preventDefault();
     if (state === "sending") return;
     setState("sending");
     const form = ev.currentTarget;
-    window.setTimeout(() => {
+    const data = new FormData(form);
+    data.set("role", role.title);
+    try {
+      const res = await fetch("/api/notify", { method: "POST", body: data });
+      if (!res.ok) {
+        setState("error");
+        return;
+      }
       setState("sent");
       form.reset();
       clearFile();
-    }, 800);
+    } catch {
+      setState("error");
+    }
   };
 
   const submitLabel =
@@ -100,7 +109,9 @@ export function RoleAccordion({
       ? "Sending…"
       : state === "sent"
         ? "✓ Application sent — we’ll reply within a week"
-        : "Send application";
+        : state === "error"
+          ? "Something went wrong — try again"
+          : "Send application";
 
   return (
     <article className={`role-card${open ? " is-open" : ""}`}>
