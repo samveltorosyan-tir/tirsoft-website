@@ -27,12 +27,12 @@ export default function ContactPage(): React.ReactElement {
           </Reveal>
           <Reveal as="h1" className="h-sub">
             <span id="contact-h1">
-              Tell us about <em>the project.</em>
+              Tell us about the project.
             </span>
           </Reveal>
           <Reveal as="p" className="lead" style={{ marginTop: 28 }}>
             We respond within one business day. Bring the brief, the
-            back-of-napkin, or just a question — all three get the same care.
+            back-of-napkin, or just a question. All three get the same care.
           </Reveal>
         </div>
       </section>

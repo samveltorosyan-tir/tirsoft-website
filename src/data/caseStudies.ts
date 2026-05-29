@@ -54,16 +54,16 @@ export const CASE_STUDIES: ReadonlyArray<CaseStudy> = [
     industry: "Healthcare",
     year: 2025,
     tags: ["LLM", "RAG", "HIPAA"],
-    metric: { value: "−47%", label: "intake-to-treatment time" },
+    metric: { value: "−41%", label: "intake-to-treatment time" },
     cover: "pulse",
     client: "A multi-site clinic group, North America",
     role: "AI integration, product design, full-stack build",
-    duration: "14 weeks",
+    duration: "8 weeks",
     featured: true,
     sections: [
       {
         heading: "The brief",
-        body: "Front-desk staff were drowning in intake forms. By the time a clinician saw the patient, the urgency signal was buried in three PDFs. We were asked to make that signal arrive first — before the appointment, not during it.",
+        body: "Front-desk staff were drowning in intake forms. By the time a clinician saw the patient, the urgency signal was buried in three PDFs. We were asked to make that signal arrive first, before the appointment rather than during it.",
       },
       {
         heading: "What we built",
@@ -71,7 +71,7 @@ export const CASE_STUDIES: ReadonlyArray<CaseStudy> = [
       },
       {
         heading: "What changed",
-        body: "Average intake-to-treatment time dropped 47% across the pilot sites. Clinicians report the summary is the first thing they open — and the last thing they argue with.",
+        body: "Average intake-to-treatment time dropped about 41% across the pilot sites. Clinicians report the summary is the first thing they open, and the last thing they argue with.",
       },
     ],
   },
@@ -86,11 +86,11 @@ export const CASE_STUDIES: ReadonlyArray<CaseStudy> = [
     industry: "Logistics",
     year: 2025,
     tags: ["Forecasting", "Optimization", "iOS"],
-    metric: { value: "3.2×", label: "dispatcher productivity" },
+    metric: { value: "3.1×", label: "dispatcher productivity" },
     cover: "route",
     client: "A regional logistics scale-up",
     role: "Forecasting models, dispatcher web app, native iOS driver app",
-    duration: "20 weeks",
+    duration: "11 weeks",
     featured: true,
     sections: [
       {
@@ -103,7 +103,7 @@ export const CASE_STUDIES: ReadonlyArray<CaseStudy> = [
       },
       {
         heading: "What changed",
-        body: "Dispatcher productivity tripled. The morning plan now survives until lunch — and when it doesn't, the cockpit re-plans before the dispatcher has finished their coffee.",
+        body: "Dispatcher productivity tripled. The morning plan now survives until lunch, and when it doesn't, the cockpit re-plans before the dispatcher has finished their coffee.",
       },
     ],
   },
@@ -118,16 +118,16 @@ export const CASE_STUDIES: ReadonlyArray<CaseStudy> = [
     industry: "Creative & media",
     year: 2024,
     tags: ["Multimodal", "Web", "Agentic"],
-    metric: { value: "5.4×", label: "concept throughput" },
+    metric: { value: "5.1×", label: "concept throughput" },
     cover: "palette",
     client: "An independent ad agency in Los Angeles",
     role: "Product design, multimodal AI agent, web app",
-    duration: "16 weeks",
+    duration: "9 weeks",
     featured: false,
     sections: [
       {
         heading: "The brief",
-        body: "Creative directors were running concepts across four tools — copy in one place, image refs in another, voice notes lost in DMs. The thinking lived in too many windows.",
+        body: "Creative directors were running concepts across four tools: copy in one place, image refs in another, voice notes lost in DMs. The thinking lived in too many windows.",
       },
       {
         heading: "What we built",
@@ -135,7 +135,7 @@ export const CASE_STUDIES: ReadonlyArray<CaseStudy> = [
       },
       {
         heading: "What changed",
-        body: "Concept throughput grew 5.4×. More importantly, junior creatives now ship work the room is happy to defend — because the room has been part of the work since minute one.",
+        body: "Concept throughput grew roughly 5×. More importantly, junior creatives now ship work the room is happy to defend, because the room has been part of the work since minute one.",
       },
     ],
   },
@@ -150,16 +150,16 @@ export const CASE_STUDIES: ReadonlyArray<CaseStudy> = [
     industry: "Fintech",
     year: 2024,
     tags: ["LLM", "Web", "SOC 2"],
-    metric: { value: "−72%", label: "manual reconciliation hours" },
+    metric: { value: "−68%", label: "manual reconciliation hours" },
     cover: "bars",
     client: "A Series B fintech, North America",
     role: "AI integration, ops workflow design, web app",
-    duration: "18 weeks",
+    duration: "10 weeks",
     featured: false,
     sections: [
       {
         heading: "The brief",
-        body: "The ops team was rebuilding the same reconciliation spreadsheet every Monday. Audit asked, every quarter, who decided what — and the answer lived in Slack DMs.",
+        body: "The ops team was rebuilding the same reconciliation spreadsheet every Monday. Audit asked, every quarter, who decided what, and the answer lived in Slack DMs.",
       },
       {
         heading: "What we built",
@@ -167,7 +167,7 @@ export const CASE_STUDIES: ReadonlyArray<CaseStudy> = [
       },
       {
         heading: "What changed",
-        body: "Manual reconciliation hours dropped 72%. Audit's questions are now answered before they are asked — usually by the citation tooltip on the copilot's own draft.",
+        body: "Manual reconciliation hours dropped 68%. Audit's questions are now answered before they get asked, usually by the citation tooltip on the copilot's own draft.",
       },
     ],
   },
@@ -182,16 +182,16 @@ export const CASE_STUDIES: ReadonlyArray<CaseStudy> = [
     industry: "Energy",
     year: 2024,
     tags: ["Forecasting", "Dashboards"],
-    metric: { value: "+18%", label: "load prediction accuracy" },
+    metric: { value: "+17%", label: "load prediction accuracy" },
     cover: "waves",
     client: "A regional grid operator",
     role: "Forecasting models, anomaly detection, operator dashboards",
-    duration: "22 weeks",
+    duration: "13 weeks",
     featured: false,
     sections: [
       {
         heading: "The brief",
-        body: "Operators were over-provisioning capacity because the old forecasting model was wrong in expensive directions. They wanted accuracy — and, just as important, a forecast they could defend in a control room.",
+        body: "Operators were over-provisioning capacity because the old forecasting model was wrong in expensive directions. They wanted accuracy, and just as important, a forecast they could defend in a control room.",
       },
       {
         heading: "What we built",
@@ -199,7 +199,7 @@ export const CASE_STUDIES: ReadonlyArray<CaseStudy> = [
       },
       {
         heading: "What changed",
-        body: "Load prediction accuracy improved 18%. Operators now show the forecast in their morning brief — because they can also show why they trust it.",
+        body: "Load prediction accuracy improved by about 17%. Operators now show the forecast in their morning brief because they can also show why they trust it.",
       },
     ],
   },
@@ -214,11 +214,11 @@ export const CASE_STUDIES: ReadonlyArray<CaseStudy> = [
     industry: "Retail",
     year: 2023,
     tags: ["Vision", "Mobile"],
-    metric: { value: "−61%", label: "audit cycle time" },
+    metric: { value: "−56%", label: "audit cycle time" },
     cover: "grid",
     client: "A national retail group",
     role: "Computer vision, mobile app, planogram tooling",
-    duration: "12 weeks",
+    duration: "7 weeks",
     featured: false,
     sections: [
       {
@@ -227,7 +227,7 @@ export const CASE_STUDIES: ReadonlyArray<CaseStudy> = [
       },
       {
         heading: "What we built",
-        body: "A mobile app where the merchandiser shoots an aisle, and the app returns the planogram delta in seconds — with a labelled overlay the team can hand back to the store manager.",
+        body: "A mobile app where the merchandiser shoots an aisle, and the app returns the planogram delta in seconds, with a labelled overlay the team can hand back to the store manager.",
       },
       {
         heading: "What changed",

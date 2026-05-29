@@ -12,11 +12,11 @@ export function Hero(): React.ReactElement {
               AI-native software company · est. 2016
             </Reveal>
             <Reveal as="h1" className="h1">
-              Setting a new benchmark in <em>AI-native</em> software.
+              Software for teams putting AI into production.
             </Reveal>
             <Reveal as="p" className="lead">
               We design and ship AI products with teams that care about the
-              work. Strategy, integration, custom builds — from Glendale and
+              work. Strategy, integration, custom builds, from Glendale and
               Yerevan.
             </Reveal>
             <Reveal className="hero-cta">

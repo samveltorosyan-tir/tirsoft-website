@@ -5,14 +5,14 @@ import { CTAStrip } from "@/components/CTAStrip";
 import { CASE_STUDIES } from "@/data/caseStudies";
 
 export const metadata: Metadata = {
-  title: "Selected work — six AI-native projects",
+  title: "Selected work — six recent projects",
   description:
-    "Six AI-native projects across healthcare, logistics, creative, fintech, energy, and retail. Pick a case study to read the full story.",
+    "Six recent client projects across healthcare, logistics, creative, fintech, energy, and retail. Pick a case study to read the full story.",
   alternates: { canonical: "/work" },
   openGraph: {
     title: "TIRSoft — selected work",
     description:
-      "Six AI-native projects across healthcare, logistics, creative, fintech, energy, and retail.",
+      "Six recent projects across healthcare, logistics, creative, fintech, energy, and retail.",
     url: "/work",
     type: "website",
   },
@@ -28,7 +28,7 @@ export default function WorkPage(): React.ReactElement {
           </Reveal>
           <Reveal as="h1" className="h-sub">
             <span id="work-h1">
-              Six projects. <em>One pattern.</em>
+              Six recent projects.
             </span>
           </Reveal>
           <Reveal as="p" className="lead" style={{ marginTop: 28 }}>
@@ -51,7 +51,7 @@ export default function WorkPage(): React.ReactElement {
       <CTAStrip
         heading={
           <>
-            <em>Be</em> our next success story.
+            Be our next case study.
           </>
         }
         subtitle="Bring the project that scared two other vendors off."

@@ -39,7 +39,8 @@ export function Footer(): React.ReactElement {
             <h4>Company</h4>
             <p>
               An AI-native software company with teams in Glendale, CA and
-              Yerevan, Armenia. We build calm products with confident clients.
+              Yerevan, Armenia. We build software for teams putting AI into
+              production, and stay around to keep it healthy.
             </p>
             <div className="footer-socials">
               <a
@@ -126,8 +127,8 @@ export function Footer(): React.ReactElement {
             rights reserved.
           </span>
           <span>
-            Set in <em>Crimson Pro</em> &amp; <em>Instrument Sans</em> · designed
-            with care.
+            Set in <em>Crimson Pro</em> &amp; <em>Instrument Sans</em>. Built in
+            Yerevan.
           </span>
         </div>
       </div>

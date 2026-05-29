@@ -32,6 +32,7 @@ export const SITE = {
     linkedin: "https://www.linkedin.com",
     instagram: "https://www.instagram.com",
     github: "https://github.com",
+    twitterHandle: "@tirsoft",
   },
 } as const;
 

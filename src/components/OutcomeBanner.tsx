@@ -44,13 +44,13 @@ export function OutcomeBanner(): React.ReactElement {
         <div className="outcome-banner-text">
           <span className="outcome-eyebrow">More than a dev shop</span>
           <h2 className="outcome-title">
-            We don&apos;t ship code. <em>We ship outcomes.</em>
+            We don&apos;t ship code, we ship outcomes.
           </h2>
           <p className="outcome-lead">
-            We embed in the business — P&amp;L, ops, customer calls — and engineer
-            for the metric that pays. Across eight industries we&apos;ve helped
-            partners unlock <strong>multi-x revenue lifts</strong>, not feature
-            inventories.
+            We embed in the business (P&amp;L, ops, customer calls) and engineer
+            against the metric our partners actually report on. Across eight
+            industries we&apos;ve helped clients unlock{" "}
+            <strong>multi-x revenue lifts</strong>, not feature inventories.
           </p>
         </div>
         <ul className="outcome-stats">

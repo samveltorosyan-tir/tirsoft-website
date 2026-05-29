@@ -76,12 +76,23 @@ export default async function CaseStudyPage({
     <article className="page">
       <section className="cs-hero" aria-labelledby="cs-h1">
         <div className="wrap">
+          <nav className="breadcrumb" aria-label="Breadcrumb">
+            <ol>
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="/work">Work</Link>
+              </li>
+              <li aria-current="page">{study.name}</li>
+            </ol>
+          </nav>
           <Reveal className="eyebrow" style={{ marginBottom: 20 }}>
             Case study · {study.industry}
           </Reveal>
           <Reveal as="h1" className="h-sub">
             <span id="cs-h1">
-              <em>{study.name}</em> — {study.headline}
+              {study.name}: {study.headline}
             </span>
           </Reveal>
           <Reveal as="p" className="lead" style={{ marginTop: 24 }}>
@@ -170,7 +181,7 @@ export default async function CaseStudyPage({
           </Reveal>
           <Reveal as="h2" className="h2">
             <span id="related-heading">
-              Other recent <em>builds.</em>
+              Other recent builds.
             </span>
           </Reveal>
           <div className="svc-grid" style={{ marginTop: 24 }}>
@@ -195,7 +206,7 @@ export default async function CaseStudyPage({
       <CTAStrip
         heading={
           <>
-            Got a <em>similar challenge?</em>
+            Got a similar challenge?
           </>
         }
         subtitle="Tell us about it. We reply within one business day."

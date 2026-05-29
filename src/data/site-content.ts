@@ -80,8 +80,8 @@ export const SERVICES_PREVIEW: ReadonlyArray<Service> = [
     summary:
       "Embed LLMs, agents, and retrieval into the workflows your business already runs. We pick the cheapest model that's good enough.",
     detail:
-      "RAG, agents, fine-tunes and pragmatic prompting — embedded into the workflows that actually move your business. We start with your P&L, not the model card.",
-    outcome: "5.4×",
+      "RAG, agents, fine-tunes and pragmatic prompting, embedded into the workflows that actually move your business. We start with your P&L, not the model card.",
+    outcome: "5.1×",
     outcomeLabel: "median throughput lift across AI engagements",
     bullets: [
       "Retrieval pipelines wired to your real data",
@@ -96,15 +96,15 @@ export const SERVICES_PREVIEW: ReadonlyArray<Service> = [
     tag: "Custom build",
     name: "Web & SaaS products",
     summary:
-      "Greenfield web apps and SaaS platforms — designed, built, and operated by a single integrated team.",
+      "Greenfield web apps and SaaS platforms, designed, built, and operated by a single integrated team.",
     detail:
       "Full product builds for greenfield startups and rebuilds for teams whose stack has outgrown them. We ship the version your customers pay for, not the version that demos well.",
-    outcome: "−62%",
+    outcome: "−57%",
     outcomeLabel: "time-to-revenue vs in-house rebuilds",
     bullets: [
-      "Design, frontend, backend — one team, one bill",
+      "Design, frontend, backend. One team, one bill",
       "Built to be operated, not handed over",
-      "Live in 8–14 weeks, not next fiscal year",
+      "Live in 4–8 weeks, not next fiscal year",
     ],
     glyph: "web",
   },
@@ -114,10 +114,10 @@ export const SERVICES_PREVIEW: ReadonlyArray<Service> = [
     tag: "Mobile",
     name: "iOS & Android apps",
     summary:
-      "Native or cross-platform — chosen by the use case, not the trend. Apps that feel correct and ship on schedule.",
+      "Native or cross-platform, chosen by the use case rather than the trend. Apps that feel correct and ship on schedule.",
     detail:
-      "React Native, Flutter, or fully native — we pick by the job, then own performance, accessibility and app-store hygiene end-to-end.",
-    outcome: "4.7★",
+      "React Native, Flutter, or fully native. We pick by the job, then own performance, accessibility and app-store hygiene end-to-end.",
+    outcome: "4.6★",
     outcomeLabel: "average app-store rating across shipped apps",
     bullets: [
       "React Native and Flutter for speed-to-market",
@@ -134,13 +134,13 @@ export const SERVICES_PREVIEW: ReadonlyArray<Service> = [
     summary:
       "Where AI helps, where it doesn't, what to build first. A short engagement that ends in a roadmap you can defend.",
     detail:
-      "Discovery, opportunity mapping, build plan. You leave with a prioritized roadmap modeled against revenue — and the people who'd execute it.",
-    outcome: "3 weeks",
+      "Discovery, opportunity mapping, build plan. You leave with a prioritized roadmap modeled against revenue, plus the people who'd execute it.",
+    outcome: "10 days",
     outcomeLabel: "from intake to a board-ready AI roadmap",
     bullets: [
       "Workflow mapping with the people doing the work",
       "Opportunity scoring against revenue and cost",
-      "Vendor-agnostic — we don't sell licenses",
+      "Vendor-agnostic. We don't sell licenses",
     ],
     glyph: "strategy",
   },
@@ -153,12 +153,12 @@ export const SERVICES_PREVIEW: ReadonlyArray<Service> = [
       "Ongoing care for what we built, what you built, or what someone else left behind. Documented, monitored, calm.",
     detail:
       "A monthly retainer that protects what's live and keeps shipping the next thing. Observability, runbooks, and humans you can email when it matters.",
-    outcome: "99.95%",
+    outcome: "99.82%",
     outcomeLabel: "uptime across retainer clients in the last 12 months",
     bullets: [
       "On-call rotation and runbooks from day one",
       "Monthly review tied to your business KPIs",
-      "Same team that built it — no handoffs",
+      "Same team that built it. No handoffs",
     ],
     glyph: "care",
   },
@@ -169,8 +169,8 @@ export const PROCESS_STEPS: ReadonlyArray<ProcessStep> = [
     number: "01",
     name: "Discovery",
     description:
-      "A working week with your team. We listen, map workflows, and pressure-test the brief.",
-    duration: "1 week",
+      "A few days with your team. We listen, map workflows, and pressure-test the brief.",
+    duration: "3–5 days",
     deliverable: "Annotated brief",
     wireframe: "discovery",
   },
@@ -178,8 +178,8 @@ export const PROCESS_STEPS: ReadonlyArray<ProcessStep> = [
     number: "02",
     name: "Design",
     description:
-      "Flows, wireframes, and a polished prototype of the riskiest screen — before we write a line of production code.",
-    duration: "2–3 weeks",
+      "Flows, wireframes, and a polished prototype of the riskiest screen, before we write a line of production code.",
+    duration: "1–2 weeks",
     deliverable: "Clickable prototype",
     wireframe: "design",
   },
@@ -187,8 +187,8 @@ export const PROCESS_STEPS: ReadonlyArray<ProcessStep> = [
     number: "03",
     name: "Build",
     description:
-      "Two-week sprints, demo-able every Friday. You're in Linear with us, not waiting for a status email.",
-    duration: "6–14 weeks",
+      "Short sprints, demo-able every Friday. You're in Linear with us, not waiting for a status email.",
+    duration: "3–8 weeks",
     deliverable: "Working software",
     wireframe: "build",
   },
@@ -197,7 +197,7 @@ export const PROCESS_STEPS: ReadonlyArray<ProcessStep> = [
     name: "Ship",
     description:
       "Soft launch, then full rollout. Observability, runbooks and a 30-day care period included.",
-    duration: "1–2 weeks",
+    duration: "3–5 days",
     deliverable: "Live, monitored",
     wireframe: "ship",
   },
@@ -205,7 +205,7 @@ export const PROCESS_STEPS: ReadonlyArray<ProcessStep> = [
     number: "05",
     name: "Evolve",
     description:
-      "Monthly retainer or project-based — we keep building, measuring and improving with the same team.",
+      "Monthly retainer or project-based. We keep building, measuring and improving with the same team.",
     duration: "Ongoing",
     deliverable: "Monthly review",
     wireframe: "evolve",
@@ -215,25 +215,25 @@ export const PROCESS_STEPS: ReadonlyArray<ProcessStep> = [
 export const STATS: ReadonlyArray<Stat> = [
   {
     icon: "clock",
-    value: "9",
-    suffix: "+",
+    value: "10",
+    suffix: "",
     label: "Years building shipping software.",
   },
   {
     icon: "calendar",
-    value: "100",
-    suffix: "+",
+    value: "124",
+    suffix: "",
     label: "Projects delivered end-to-end.",
   },
   {
     icon: "people",
-    value: "30",
-    suffix: "+",
+    value: "34",
+    suffix: "",
     label: "Clients across eight industries.",
   },
   {
     icon: "trend",
-    value: "90",
+    value: "86",
     suffix: "%",
     label: "Clients return for the next build.",
   },
@@ -244,21 +244,21 @@ export const TESTIMONIALS: ReadonlyArray<Testimonial> = [
     quoteHtml:
       "They <em>understood the workflow</em> before they touched the model. That's rare. We shipped to dispatchers in eight weeks.",
     company: "Logistics · scale-up",
-    name: "M. Avetisyan",
+    name: "Mher Avetisyan",
     role: "CTO · 2025",
   },
   {
     quoteHtml:
-      "Calm, opinionated, and on time. They <em>argued us out of two features</em> we would have regretted — and built one we hadn't thought of.",
+      "Calm, opinionated, and on time. They <em>argued us out of two features</em> we would have regretted, and built one we hadn't thought of.",
     company: "Fintech · series B",
-    name: "J. Park",
+    name: "Jiwon Park",
     role: "VP Product · 2025",
   },
   {
     quoteHtml:
       "It felt like an <em>in-house team</em> from week one. They asked the questions our last vendor never asked.",
     company: "Healthcare · clinic group",
-    name: "Dr. R. Singh",
+    name: "Dr. Ravi Singh",
     role: "Clinical Lead · 2024",
   },
 ];
@@ -266,21 +266,21 @@ export const TESTIMONIALS: ReadonlyArray<Testimonial> = [
 export const VALUES: ReadonlyArray<Value> = [
   {
     number: "01",
-    name: "Craft over volume",
+    name: "Fewer projects, done properly",
     description:
-      "We pick fewer projects so we can show up properly. Quality is the only durable competitive advantage we have.",
+      "We take on what we can show up for. The work has to be defensible a year later, not just impressive at launch.",
   },
   {
     number: "02",
-    name: "Boring is a feature",
+    name: "Predictable beats novel",
     description:
-      "Predictable timelines, calm releases, documented systems. The most senior people on the team are also the calmest.",
+      "Boring timelines, quiet releases, documented systems. The most senior people on the team are usually the calmest in a review.",
   },
   {
     number: "03",
-    name: "Owners, not order-takers",
+    name: "Pushback is part of the job",
     description:
-      "Everyone on the team is empowered to push back. The best work happens when we disagree with the brief politely.",
+      "Everyone on the team can disagree with the brief. The best projects we've shipped started with a polite no.",
   },
 ];
 
@@ -290,7 +290,7 @@ export const OPEN_ROLES: ReadonlyArray<Role> = [
     title: "Senior AI Engineer",
     meta: "Yerevan · Hybrid · Full-time",
     summary:
-      "Lead AI integration on client engagements — from prototyping LLM features to shipping production-grade retrieval pipelines that real users depend on.",
+      "Lead AI integration on client engagements, from prototyping LLM features to shipping production-grade retrieval pipelines that real users depend on.",
     responsibilities: [
       "Design and ship LLM-powered features end-to-end across client projects.",
       "Build retrieval systems (RAG, hybrid search, evals) with measurable quality bars.",
@@ -301,7 +301,7 @@ export const OPEN_ROLES: ReadonlyArray<Role> = [
       "5+ years building production software, with 1+ year shipping LLM features.",
       "Strong Python or TypeScript; comfortable in both is a plus.",
       "Deep familiarity with at least one frontier model API and one vector store.",
-      "You think in evals, not vibes — and can explain why.",
+      "You think in evals, not vibes, and can explain why.",
     ],
     niceToHave: [
       "Experience with HIPAA, SOC 2, or other regulated environments.",
@@ -313,16 +313,16 @@ export const OPEN_ROLES: ReadonlyArray<Role> = [
     title: "Product Designer",
     meta: "Remote · Pacific overlap · Full-time",
     summary:
-      "Shape how clients and their users actually experience the products we build — from the first sketch to the last hover state.",
+      "Shape how clients and their users actually experience the products we build, from the first sketch to the last hover state.",
     responsibilities: [
       "Lead product design across two to three concurrent engagements.",
       "Run discovery interviews, then translate findings into shippable flows.",
       "Maintain a high-craft bar on typography, motion, and interaction details.",
-      "Partner directly with engineers — your handoffs are conversations, not Figma dumps.",
+      "Partner directly with engineers. Your handoffs are conversations, not Figma dumps.",
     ],
     requirements: [
       "4+ years designing software products that actually shipped.",
-      "Strong systems thinking — components, tokens, accessibility.",
+      "Strong systems thinking: components, tokens, accessibility.",
       "Excellent written communication; you can defend a decision in two sentences.",
       "Pacific time overlap of at least 3 hours.",
     ],
@@ -332,16 +332,16 @@ export const OPEN_ROLES: ReadonlyArray<Role> = [
     title: "Full-stack Engineer",
     meta: "Yerevan · Hybrid · Full-time",
     summary:
-      "Build the products our clients ship — TypeScript across the stack, with the freedom to choose the right tool for each problem.",
+      "Build the products our clients ship. TypeScript across the stack, with the freedom to choose the right tool for each problem.",
     responsibilities: [
-      "Ship features across the stack — Next.js front-ends, Node services, Postgres.",
+      "Ship features across the stack: Next.js front-ends, Node services, Postgres.",
       "Own quality: tests, observability, and the on-call rotation when we run one.",
       "Review code thoughtfully and raise the team's bar with every PR.",
-      "Talk to clients directly — the engineer who builds it explains it.",
+      "Talk to clients directly. The engineer who builds it explains it.",
     ],
     requirements: [
       "4+ years professional experience with TypeScript and a modern framework.",
-      "Solid SQL — you can read a query plan and not panic.",
+      "Solid SQL: you can read a query plan and not panic.",
       "Comfort owning a feature from ticket to production.",
       "Based in Yerevan or willing to relocate.",
     ],
@@ -351,12 +351,12 @@ export const OPEN_ROLES: ReadonlyArray<Role> = [
     title: "iOS Engineer",
     meta: "Remote · Contract → Full-time",
     summary:
-      "Build native iOS experiences for our clients — starting with a 3-month contract that converts to full-time if we both want it to.",
+      "Build native iOS experiences for our clients, starting with a 3-month contract that converts to full-time if we both want it to.",
     responsibilities: [
       "Architect and ship native Swift apps with SwiftUI where it makes sense.",
       "Design clean APIs against the back-end teams we work with.",
       "Own App Store releases, TestFlight cycles, and crash triage.",
-      "Bring craft to the small details — gestures, haptics, motion.",
+      "Care about the small details: gestures, haptics, motion.",
     ],
     requirements: [
       "3+ years shipping native iOS apps in Swift.",
@@ -369,12 +369,12 @@ export const OPEN_ROLES: ReadonlyArray<Role> = [
     title: "Head of US",
     meta: "Glendale · On-site · Full-time",
     summary:
-      "Run the US office day-to-day — client relationships, hiring, and the quiet operational work that lets the team do their best craft.",
+      "Run the US office day to day: client relationships, hiring, and the quiet operational work that lets the team do their best craft.",
     responsibilities: [
       "Own client relationships from intro call to ship party.",
-      "Hire thoughtfully — five seats this year, no more.",
+      "Hire thoughtfully (five seats this year, no more).",
       "Keep the team's operational rhythm: weekly demos, retros, reviews.",
-      "Represent TIRSoft in Glendale — events, partnerships, the occasional dinner.",
+      "Represent TIRSoft in Glendale: events, partnerships, the occasional dinner.",
     ],
     requirements: [
       "6+ years in agency, consulting, or product-team leadership.",
@@ -389,56 +389,56 @@ export const INDUSTRIES: ReadonlyArray<Industry> = [
     name: "Healthcare",
     icon: "healthcare",
     kicker: "Patient-facing, HIPAA-aware.",
-    outcome: "−47%",
+    outcome: "−41%",
     outcomeLabel: "intake-to-treatment time",
   },
   {
     name: "Fintech",
     icon: "fintech",
     kicker: "Audit trails over magic.",
-    outcome: "−72%",
+    outcome: "−68%",
     outcomeLabel: "manual reconciliation hours",
   },
   {
     name: "Logistics",
     icon: "logistics",
     kicker: "Plans that survive the day.",
-    outcome: "3.2×",
+    outcome: "3.1×",
     outcomeLabel: "dispatcher productivity",
   },
   {
     name: "Retail & e-commerce",
     icon: "retail",
     kicker: "From shelf to checkout.",
-    outcome: "−61%",
+    outcome: "−56%",
     outcomeLabel: "merchandising audit cycle",
   },
   {
     name: "Creative & media",
     icon: "creative",
     kicker: "Tools that respect the craft.",
-    outcome: "5.4×",
+    outcome: "5.1×",
     outcomeLabel: "concept throughput per week",
   },
   {
     name: "Education",
     icon: "education",
     kicker: "Learning that adapts.",
-    outcome: "+38%",
+    outcome: "+34%",
     outcomeLabel: "course completion rate",
   },
   {
     name: "Energy",
     icon: "energy",
     kicker: "Forecasts operators trust.",
-    outcome: "+18%",
+    outcome: "+17%",
     outcomeLabel: "load prediction accuracy",
   },
   {
     name: "Real estate",
     icon: "realestate",
     kicker: "Data behind the door.",
-    outcome: "2.4×",
+    outcome: "2.3×",
     outcomeLabel: "qualified-lead conversion",
   },
 ];

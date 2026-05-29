@@ -38,10 +38,10 @@ export default function HomePage(): React.ReactElement {
             eyebrow="What we do"
             title={
               <>
-                Five practices, <em>one company.</em>
+                Five practices, one company.
               </>
             }
-            lead="From early strategy to AI integration and long-term support — a small team that takes ownership end to end."
+            lead="From early strategy through AI integration and long-term support: a small team that takes ownership end to end."
             ctaLabel="All services →"
             ctaHref="/services"
             headingId="services-heading"
@@ -60,10 +60,10 @@ export default function HomePage(): React.ReactElement {
             eyebrow="Selected work"
             title={
               <>
-                Be our next <em>success story.</em>
+                Be our next case study.
               </>
             }
-            lead="A short pass through recent projects — across healthcare, logistics and fintech."
+            lead="A short pass through recent projects, across healthcare, logistics and fintech."
             ctaLabel="All case studies →"
             ctaHref="/work"
             headingId="work-heading"
@@ -79,10 +79,10 @@ export default function HomePage(): React.ReactElement {
       <CTAStrip
         heading={
           <>
-            <em>Be</em> our next success story.
+            Tell us what you&apos;re trying to ship.
           </>
         }
-        subtitle="We respond within one business day. No sales pressure — promise."
+        subtitle="We respond within one business day. No sales pressure, promise."
       />
     </div>
   );

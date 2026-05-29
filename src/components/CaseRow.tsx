@@ -22,7 +22,7 @@ export function CaseRow({ study, flip = false }: CaseRowProps): React.ReactEleme
       <div className="case-body">
         <span className="case-tag">AI · {study.industry}</span>
         <h3 className="case-title">
-          <em>{study.name}</em> — {study.headline}
+          <strong>{study.name}</strong>: {study.headline}
         </h3>
         <div className="case-meta">
           {study.tags.map((tag) => (

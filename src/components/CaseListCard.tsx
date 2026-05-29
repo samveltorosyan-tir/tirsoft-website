@@ -24,7 +24,7 @@ export function CaseListCard({ study }: CaseListCardProps): React.ReactElement {
         </span>
         <h3 className="case-title">
           <Link href={href}>
-            <em>{study.name}</em> — {study.headline}
+            <strong>{study.name}</strong>: {study.headline}
           </Link>
         </h3>
         <div className="case-meta">

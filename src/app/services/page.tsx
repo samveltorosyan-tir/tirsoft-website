@@ -35,11 +35,11 @@ export default function ServicesPage(): React.ReactElement {
           </Reveal>
           <Reveal as="h1" className="h-sub">
             <span id="services-h1">
-              We engineer for the <em>metric that pays.</em>
+              We build for the outcomes you measure on.
             </span>
           </Reveal>
           <Reveal as="p" className="lead" style={{ marginTop: 28 }}>
-            Five practices held together by one company — and a single bias:
+            Five practices held together by one company, with a single bias:
             ship the thing that moves your P&amp;L. We sit inside your business,
             not next to it.
           </Reveal>
@@ -67,10 +67,10 @@ export default function ServicesPage(): React.ReactElement {
             eyebrow="Process"
             title={
               <>
-                Five steps. <em>No surprises.</em>
+                Five short phases, each ending in something you can show.
               </>
             }
-            lead="We work in short, defined phases — each ends with something you can show and a decision you can make."
+            lead="We work in short, defined phases. Each ends with something you can show and a decision you can make."
             headingId="process-heading"
           />
           <ProcessFlow />
@@ -83,10 +83,10 @@ export default function ServicesPage(): React.ReactElement {
             eyebrow="Industries we work across"
             title={
               <>
-                Eight industries. <em>One measure: outcome.</em>
+                Eight industries we work across.
               </>
             }
-            lead="The playbook adapts, the rigour doesn't. Hover any industry to see the lift we've delivered."
+            lead="The playbook adapts, the rigour stays. Hover any industry to see the lift we've delivered."
             headingId="industries-heading"
           />
           <IndustriesGrid />
@@ -102,10 +102,10 @@ export default function ServicesPage(): React.ReactElement {
             eyebrow="Stack"
             title={
               <>
-                A boring, <em>well-loved</em> stack.
+                Tools we use day in, day out.
               </>
             }
-            lead="We pick proven tools and the model that's good enough. Excitement is for the work, not the dependencies."
+            lead="We pick proven tools and the model that's good enough. The excitement belongs in the work, not the dependencies."
             headingId="stack-heading"
           />
           <div className="stack-grid">
@@ -122,7 +122,7 @@ export default function ServicesPage(): React.ReactElement {
       <CTAStrip
         heading={
           <>
-            Bring us the <em>messy brief.</em>
+            Bring us the messy brief.
           </>
         }
         subtitle="The harder the problem, the better the first call."
